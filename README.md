@@ -19,7 +19,7 @@ Ports and Interfaces that make use of Adapters
 ### launcher module
 
 ```
-Java 17
+Scala 3.3.0
 Spring-Boot Bootstrap and Bean injection of domain impls
 ```
 
@@ -49,7 +49,9 @@ Docker
 ```
 
 #### Running
+
 One command run everything:
+
 ```
 docker-compose up --build
 ```
