@@ -148,6 +148,8 @@ GET /api/v1/accounts/{accountId}/balance
 
 GET /api/v1/movements/{accountId}?start=2000-01-01&end=3000-01-01&page=0&pageSize=25
 
+* The most common ISO Date Format {@code yyyy-MM-dd} &mdash; for example, "2000-10-31".
+
 ### Consultar o extrato da conta por tipo
 
 **Tipo debito:**
