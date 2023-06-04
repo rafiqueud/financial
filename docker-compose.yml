@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./h2db:/opt/financial/h2db
+    ports:
+      - 8080:8080
+    networks:
+      - cbh_thc_network
+
+networks:
+  cbh_thc_network:
+    driver: bridge
